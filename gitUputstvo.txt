@@ -1,0 +1,49 @@
+    1  cd ..
+    2  cd ..
+    3  cd ..
+    4  cd git-repo
+    5  cd c
+    6  cd git-repo
+    7  cd /c/users
+    8  cd /c/git-repo
+    9  git init
+   10  git config --global user.email "oolivera@gmail.com"
+   11  git config --global user.name "oolivera"
+   12  git touch prviFile.txt
+   13  git --help
+   14  touch prviFile.txt
+   15  git status
+   16  git commit -m "test"
+   17  git add prviFile.txt
+   18  git commit -m "Prva verzija"
+   19  git status
+   20  touch drugiFile.txt
+   21  git status
+   22  git add .
+   23  git diff
+   24  git commit -m "Druga verzija"
+   25  git status
+   26  git add .
+   27  git commit -m "Treca verzija"
+   28  git status
+   29  git log
+   30  git checkout a623
+   31  git checkout 30cdf
+   32  git checkout master
+   33  git branch new-folder-feature
+   34  git checkout new-folder-feature
+   35  git add .
+   36  git commit -m "New feature"
+   37  git checkout master
+   38  git merge new-folder-feature
+   39  git remote add origin https://github.com/oolivera/Test.git
+   40  git push -u origin -all
+   41  git push -u origin --all
+   42  git pull origin
+   43  git pull origin
+   44  git checkout new-folder-feature
+   45  git merge master
+   46  git log
+   47  git history
+   48  history
+   49  history > gitUputstvo.txt
